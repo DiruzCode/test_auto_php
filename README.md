@@ -4,7 +4,7 @@ Prueba PHP
 
 Git clone https://github.com/DiruzCode/test_auto_php
 
--> cd Cliente/
+-> cd Client/
 * BOWER INSTALL
 * php -S localhost:8181
 
