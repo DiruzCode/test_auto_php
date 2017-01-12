@@ -1,0 +1,40 @@
+
+<section>
+    <div class="container">
+        
+    </div>
+</section>
+
+
+<div id="questions" class="modal">
+  <div class="modal-content">
+    <h4 class="center">Pregunta</h4>
+      <p>¿{{question.question}}?<p>
+      <input ng-if="question.type === 3" type="text" ng-model="question.answer"></span>
+      <div ng-if="question.type === 2" class="row">
+        <div class="input-field col s12 center">
+              <input name="group1" type="radio" ng-model="question.answer" value="Si" id="1"/>
+              <label for="1">Si</label>
+              <input name="group1" type="radio" ng-model="question.answer" value="No" id="2"/>
+              <label for="2">No</label>
+          </div>
+        </div>
+      <div ng-if="question.type === 3" class="row">
+        <div class="input-field col s12 center">
+              <input name="group1" type="radio" ng-model="question.answer" value="1" id="1"/>
+              <label for="1">1</label>
+              <input name="group1" type="radio" ng-model="question.answer" value="2" id="2"/>
+              <label for="2">2</label>
+              <input name="group1" type="radio" ng-model="question.answer" value="3" id="3"/>
+              <label for="3">3</label>
+              <input name="group1" type="radio" ng-model="question.answer" value="4" id="4"/>
+              <label for="4">4</label>
+              <input name="group1" type="radio" ng-model="question.answer" value="5" id="5"/>
+              <label for="5">5</label>
+          </div>
+        </div>
+  </div>
+  <div class="modal-footer">
+      <a class=" modal-action modal-close waves-effect waves-green btn-flat" ng-click="actionResponse()">Responder</a>
+    </div>
+</div>

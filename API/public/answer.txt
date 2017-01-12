@@ -1,0 +1,6 @@
+VISI,3,testa3@autofact.cl,2017/01/12 19:47:09
+VISI,3,testa3@autofact.cl,2017/01/12 19:47:09
+VISI,3,testa3@autofact.cl,2017/01/12 19:47:09
+VISI,5,testa3@autofact.cl,2017/01/12 19:47:17
+VISI,5,testa3@autofact.cl,2017/01/12 19:47:17
+VISI,5,testa3@autofact.cl,2017/01/12 19:47:17
