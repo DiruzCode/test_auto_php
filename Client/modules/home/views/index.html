@@ -10,7 +10,7 @@
   <div class="modal-content">
     <h4 class="center">Pregunta</h4>
       <p>¿{{question.question}}?<p>
-      <input ng-if="question.type === 3" type="text" ng-model="question.answer"></span>
+      <input ng-if="question.type === 1" type="text" ng-model="question.answer"></span>
       <div ng-if="question.type === 2" class="row">
         <div class="input-field col s12 center">
               <input name="group1" type="radio" ng-model="question.answer" value="Si" id="1"/>

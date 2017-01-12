@@ -18,6 +18,7 @@ $app->get('/', function () use ($app) {
 $app->group(['prefix' => 'api/v1'], function($app)
 {
 	$app->post('oauth','OauthController@post');
+	$app->get('oauth','OauthController@get');
 	$app->post('answer','AnswerController@post');
 	$app->get('question/{id}','QuestionController@get');
 
