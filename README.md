@@ -8,7 +8,7 @@ Git clone https://github.com/DiruzCode/test_auto_php
 * BOWER INSTALL
 * php -S localhost:8181
 
--> cd API/
+-> cd API/public
 * Composer install
 * php -S localhost:8080
 
